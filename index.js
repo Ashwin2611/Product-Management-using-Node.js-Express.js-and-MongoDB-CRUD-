@@ -81,7 +81,7 @@ app.use("/api/v1/products",routers)
 //     }
 // })
 
-mongoose.connect("mongodb+srv://ashwinmurugan818:zFhHldIZzaLsvAdU@backend.grhvx.mongodb.net/CRUD?retryWrites=true&w=majority&appName=Backend")
+mongoose.connect("mongodb+srv://ashwinmurugan818:<User Password>@backend.grhvx.mongodb.net/CRUD?retryWrites=true&w=majority&appName=Backend")
 .then(()=>{
     console.log("DB is Connected");
 })
